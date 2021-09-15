@@ -1,0 +1,14 @@
+/* Buttons */
+#coinButton {
+    position: relative;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+}
+
+#coinButton:hover {
+    transform: scale(1.10);
+}
+
+#coinButton:active {
+    transform: scale(0.99);
+}
